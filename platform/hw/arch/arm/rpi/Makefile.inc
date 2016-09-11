@@ -10,4 +10,4 @@ CPPFLAGS+=	-Iarch/arm
 
 .PHONY: archdirs
 archdirs:
-        mkdir -p ${RROBJ}/platform/arch/arm/rpi
+	mkdir -p ${RROBJ}/platform/arch/arm/rpi
