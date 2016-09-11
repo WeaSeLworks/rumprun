@@ -1,10 +1,10 @@
 ARMGNU ?= arm-none-eabi
 TARGET = kernel.img
 
-ASMS=	arch/arm/integrator/locore.S
+ASMS=	arch/arm/rpi/locore.S
 
-SRCS+=	arch/arm/integrator/machdep.c
-SRCS+=	arch/arm/integrator/serialcons.c
+SRCS+=	arch/arm/rpi/machdep.c
+SRCS+=	arch/arm/rpi/serialcons.c
 
 CPPFLAGS+=	-Iarch/arm
 
