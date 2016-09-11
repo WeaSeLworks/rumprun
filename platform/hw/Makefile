@@ -18,7 +18,8 @@ ifeq (${MACHINE},evbarm)
 supported:= true
 ARCHDIR= arm/integrator
 endif
-ifeq (${MACHINE},rpi)
+#TODO: This is for Raspberry Pi. And it isn't great. we need a better way doing this
+ifeq (${MACHINE},evbearmhf-el)
  supported:=true
  ARCHDIR=arm/rpi
 endif
